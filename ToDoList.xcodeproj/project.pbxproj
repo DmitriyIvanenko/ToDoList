@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6113ACF22A150C2800051ABA /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6113ACF12A150C2800051ABA /* TLButton.swift */; };
 		612C45D72A0A6F0900C00035 /* ToDoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612C45D62A0A6F0900C00035 /* ToDoListApp.swift */; };
 		612C45D92A0A6F0900C00035 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612C45D82A0A6F0900C00035 /* MainView.swift */; };
 		612C45DB2A0A6F0B00C00035 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 612C45DA2A0A6F0B00C00035 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6113ACF12A150C2800051ABA /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 		612C45D32A0A6F0900C00035 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		612C45D62A0A6F0900C00035 /* ToDoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListApp.swift; sourceTree = "<group>"; };
 		612C45D82A0A6F0900C00035 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				612C45FB2A0A7BC100C00035 /* ToDoListItemView.swift */,
 				612C45F52A0A7B6D00C00035 /* NewItemView.swift */,
 				612C460F2A0A81A500C00035 /* HeaderView.swift */,
+				6113ACF12A150C2800051ABA /* TLButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				612C45D92A0A6F0900C00035 /* MainView.swift in Sources */,
 				612C45F42A0A7B5200C00035 /* ToDoListView.swift in Sources */,
 				612C45FA2A0A7B9300C00035 /* RegisterView.swift in Sources */,
+				6113ACF22A150C2800051ABA /* TLButton.swift in Sources */,
 				612C46042A0A7C6600C00035 /* ProfileViewViewModel.swift in Sources */,
 				612C45F22A0A7B2900C00035 /* ProfileView.swift in Sources */,
 				612C45FE2A0A7C1200C00035 /* User.swift in Sources */,
