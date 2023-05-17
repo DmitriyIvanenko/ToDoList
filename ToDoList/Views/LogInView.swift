@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct LogInView: View {
-    
     @State var email = ""
     @State var password = ""
     
@@ -16,10 +15,12 @@ struct LogInView: View {
         NavigationView {
             VStack {
                 //Header
-                HeaderView()
+                HeaderView(title: "To Do List",
+                           subtitle: "Get things done",
+                           angle: 15,
+                           background: .pink)
                 
                 // Login form
-                
                 Form {
                     TextField("Email Address", text: $email)
                         .textFieldStyle(DefaultTextFieldStyle())
@@ -37,16 +38,17 @@ struct LogInView: View {
                                 .foregroundColor(Color.white)
                                 .bold()
                         }
-                        .padding()
                     }
+                    .padding()
                 }
+                .offset(y: -50)
                 
                 //Create Account
                 VStack {
                     Text("New around Here")
                     NavigationLink("Create An Account" ,destination: RegisterView())
                 }
-                        .padding(.bottom, 50)
+                .padding(.bottom, 50)
                 Spacer()
             }
         }

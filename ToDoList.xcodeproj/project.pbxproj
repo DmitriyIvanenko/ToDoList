@@ -113,11 +113,11 @@
 			children = (
 				612C45D82A0A6F0900C00035 /* MainView.swift */,
 				612C45F72A0A7B8100C00035 /* LogInView.swift */,
+				612C45F92A0A7B9300C00035 /* RegisterView.swift */,
 				612C45F12A0A7B2900C00035 /* ProfileView.swift */,
 				612C45F32A0A7B5200C00035 /* ToDoListView.swift */,
 				612C45FB2A0A7BC100C00035 /* ToDoListItemView.swift */,
 				612C45F52A0A7B6D00C00035 /* NewItemView.swift */,
-				612C45F92A0A7B9300C00035 /* RegisterView.swift */,
 				612C460F2A0A81A500C00035 /* HeaderView.swift */,
 			);
 			path = Views;
