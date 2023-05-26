@@ -132,10 +132,10 @@
 			isa = PBXGroup;
 			children = (
 				612C46012A0A7C4800C00035 /* MainViewViewModel.swift */,
-				612C46032A0A7C6600C00035 /* ProfileViewViewModel.swift */,
 				612C46052A0A7C7F00C00035 /* ToDoLIstViewViewModel.swift */,
 				612C460D2A0A7CE600C00035 /* ToDoListItemViewViewModel.swift */,
 				612C46072A0A7C9C00C00035 /* NewItemViewViewModel.swift */,
+				612C46032A0A7C6600C00035 /* ProfileViewViewModel.swift */,
 				612C46092A0A7CAB00C00035 /* LogInViewViewModel.swift */,
 				612C460B2A0A7CB500C00035 /* RegisterViewViewModel.swift */,
 			);
