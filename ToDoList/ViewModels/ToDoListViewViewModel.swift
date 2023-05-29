@@ -7,6 +7,8 @@
 
 import Foundation
 
-class ToDoLIstViewViewModel: ObservableObject {
+class ToDoListViewViewModel: ObservableObject {
+    @Published var showingNewItemView = false
+    
     init() {}
 }
